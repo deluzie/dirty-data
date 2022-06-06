@@ -2,11 +2,31 @@ body {
 	
 }
 
+.sound { display: none; }
+
+button {
+	font-family: Arial Narrow;
+	font-size: 2rem;
+	color: black;
+	background: red;
+	text-decoration: none;
+	shadow: 2px 2px 2px red;
+	border-radius: 3rem;
+	padding: 16px 32px 20px 32px;
+	transition: background 100ms ease-in-out,
+}
+
+button:hover {
+    background: black;
+}
+
+
 a {
 		color: #07FF02;
 		text-decoration: none;
 	:hover {
 		color: red;
+		transition: 0.8s;
 		text-shadow: 2px 2px 2px #07FF02;
 	}
 }
@@ -38,7 +58,7 @@ a {
 }
 
 .cover-text {
-	font-family: Arial Narrow;
+	font-family: Times;
 	font-weight: lighter;
 	font-size: 12rem;
 	opacity: 0.9;

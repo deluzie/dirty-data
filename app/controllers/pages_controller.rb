@@ -1,6 +1,8 @@
 class PagesController < ApplicationController
   def about
   end
-  def one
+  def first
+  end
+  def second
   end
 end

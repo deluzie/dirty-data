@@ -1,11 +1,12 @@
-<video id="background-video" autoplay loop poster="assets/bg_test_02.mp4">
-<source src="assets/bg_test_02.mp4" type="video/mp4">
-</video>
+<%= render 'shared/video' %>
 
-<div class="text-centered text-flip-horizontal">
-	<a href="/one" 
-	  target="popup" 
-	  onclick="window.open('/one','popup','width=600,height=600'); return false;">
-	  <h1 class="cover-text">talk dirty to me data</h1>
-	</a>
+<div class="text-centered">
+	<button onclick="myFunction()">talk dirty to me, dada</button>
+
+		<script>
+		function myFunction() {
+		  window.open('/first','_blank','top=200, left=60, width=900,height=800',);
+		}
+		</script>
+
 </div>
