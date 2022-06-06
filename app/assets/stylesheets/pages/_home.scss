@@ -2,6 +2,16 @@ body {
 	
 }
 
+a {
+		color: #07FF02;
+		text-decoration: none;
+	:hover {
+		color: red;
+		text-shadow: 2px 2px 2px #07FF02;
+	}
+}
+
+
 .text-centered {
 	height: 100vh;
 	display: flex;
@@ -11,10 +21,26 @@ body {
 	text-shadow: 2px 2px 2px red;
 }
 
+.text-flip-vertical {
+	-moz-transform: scale(-1, 1);
+	-webkit-transform: scale(-1, 1);
+	-o-transform: scale(-1, 1);
+	-ms-transform: scale(-1, 1);
+	transform: scale(-1, 1);
+}
+
+.text-flip-horizontal {
+	-moz-transform: scale(1, -1);
+	-webkit-transform: scale(1, -1);
+	-o-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	transform: scale(1, -1);
+}
+
 .cover-text {
 	font-family: Arial Narrow;
 	font-weight: lighter;
-	font-size: 2rem;
+	font-size: 12rem;
 	opacity: 0.9;
 }
 
