@@ -1,6 +1,21 @@
 body {
-	font-family: Helvetica;
-	color: red;
+	
+}
+
+.text-centered {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #07FF02;
+	text-shadow: 2px 2px 2px red;
+}
+
+.cover-text {
+	font-family: Arial Narrow;
+	font-weight: lighter;
+	font-size: 2rem;
+	opacity: 0.9;
 }
 
 #background-video {
@@ -18,7 +33,7 @@ body {
 @media (max-width: 750px) {
     #background-video { display: none; }
     body {
-      background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+      background: url("assets/phone_bg.png") no-repeat;
       background-size: cover;
     }
 }
