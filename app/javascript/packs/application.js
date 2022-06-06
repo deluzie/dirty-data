@@ -11,3 +11,19 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+document.addEventListener('input', function (event) {
+  if (event.target.tagName.toLowerCase() !== 'textarea') return;
+  autoExpand(event.target);
+}, false);
+
+document.addEventListener('turbolinks:load', () => {
+  $(document).ready(function(){
+    $(".button").click(function(){
+    $('.overlay').show();
+    });
+    $(".close").click(function(){
+    $('.overlay').hide();
+    });
+  });
+});
