@@ -4,6 +4,21 @@ body {
 
 .sound { display: none; }
 
+button {
+	font-family: Arial Narrow;
+	font-size: 2rem;
+	color: black;
+	background: red;
+	text-decoration: none;
+	shadow: 2px 2px 2px red;
+	border-radius: 3rem;
+	padding: 8px 16px 10px 16px;
+	transition: background 100ms ease-in-out,
+}
+
+button:hover {
+    background: black;
+}
 
 
 a {
